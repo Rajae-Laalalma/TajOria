@@ -10,7 +10,7 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <div>
+    <div >
       {/* Navbar */}
       <div className=" bg-transparent h-24 text-xl flex justify-between items-center px-6 md:px-20 font-Playfair">
         

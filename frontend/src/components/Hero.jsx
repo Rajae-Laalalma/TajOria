@@ -16,10 +16,13 @@ const Hero = () => {
         <img src={Hero2} className='w-full h-full opacity-30  ' />
       </div>
       
-<div className='border border-red-500'>
+<div className=''>
 <img src={Hero1} className='absolute top-1/2 left-[600px] transform -translate-x-1/2 -translate-y-1/2 w-[350px] h-[500px]' />
 </div>
-    
+    <div className='absolute top-[455px] left-[350px] flex flex-col gap-4  '>
+        <p className=' font-Playfair text-4xl'>Elevet your </p>
+        <p className=' font-Playfair text-4xl'>style white</p>
+    </div>
     </div>
   );
 };
