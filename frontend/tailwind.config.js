@@ -9,7 +9,11 @@ export default {
       fontFamily: {
         Playfair: ['Playfair Display', 'serif'],
       },
+      colors: {
+      customGray: '#F8F3E9',
     },
+    },
+    
   },
   plugins: [],
 }
